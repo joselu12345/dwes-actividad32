@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 export const metadata = {
-  title: "1.9.- ¿Qué efectos tendrá la convalidación en mi expediente?"
+  title: "1.9.-  ¿Qué efectos tendrá la convalidación en mi expediente?"
 };
 
 export default function Home() {
