@@ -25,15 +25,16 @@ export default function Home() {
           <ItemLista>Entra en la web de la Universidad en la que estudiaste y busca los departamentos del apartado anterior. Localiza el teléfono del jefe/director del departamento y la dirección de correo.</ItemLista>
           <ItemLista>Contacta por teléfono con el departamento y/o envía un correo con la siguiente información:</ItemLista>
         </div>
-        <p>Buenos días.</p>
-        <p>Mi nombre es XXXX. Cursé la licenciatura/diplomatura/grado en XXX en la Facultad de XXXX Promoción 20XX-20XX y actualmente curso otros estudios para los que necesito el programa <span className="font-bold">sellado</span> por el centro universitario en cuestión de las siguientes asignaturas:</p>
-        <p>XXXXX. curso, 20XX-20XX</p>
-        <p>XXXXX. curso, 20XX-20XX</p>
-        <p>Les agradecería si me pudiesen decir cómo conseguirlo o si me lo pudiesen enviar a la siguiente dirección: XXXX</p>
-        <p>De no ser así, dígame cómo puedo hacerlo.</p>
-        <p>De nuevo, gracias por su amabilidad.</p>
-        <p>Saludos cordiales.</p>
-
+        <div className="italic flex flex-col gap-4">
+          <p>Buenos días.</p>
+          <p>Mi nombre es XXXX. Cursé la licenciatura/diplomatura/grado en XXX en la Facultad de XXXX Promoción 20XX-20XX y actualmente curso otros estudios para los que necesito el programa <span className="font-bold underline">sellado</span> por el centro universitario en cuestión de las siguientes asignaturas:</p>
+          <p>XXXXX. curso, 20XX-20XX</p>
+          <p>XXXXX. curso, 20XX-20XX</p>
+          <p>Les agradecería si me pudiesen decir cómo conseguirlo o si me lo pudiesen enviar a la siguiente dirección: XXXX</p>
+          <p>De no ser así, dígame cómo puedo hacerlo.</p>
+          <p>De nuevo, gracias por su amabilidad.</p>
+          <p>Saludos cordiales.</p>
+        </div>
 
       </div>
     </>
